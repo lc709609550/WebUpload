@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit</title>
+    <link href="__PUBLIC__/css/ui.jqgrid.css" rel="stylesheet" type="text/css">
+    <link type="text/css" href="__PUBLIC__/css/main.css" rel="stylesheet"/>
+    <link type="text/css" href="__PUBLIC__/css/default.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="content">
+        <form method="post" action="">
+            <volist name="list" id="vo">
+                <input type="text" name="corrosion_tablet" value="{$vo.corrosion_tablet}"/>
+                <input type="text" name="corrosion_line" value="{$vo.corrosion_line}"/>
+                <input type="text" name="corrosion_point" value="{$vo.corrosion_point}"/>
+                <input type="text" name="plantmatchkey" value="{$vo.plantmatchkey}"/>
+                <button type="submit">确认修改</button>
+            </volist>
+        </form>
+    </div>
+</body>
+</html>
