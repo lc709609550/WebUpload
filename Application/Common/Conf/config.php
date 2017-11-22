@@ -12,7 +12,7 @@ return array(
     'DB_DEBUG'  =>  TRUE, // 数据库调试模式 开启后可以记录SQL日志 3.2.3新增
 
 //    'APP_GROUP_LIST'    =>    'Home,WebUpload',
-    'DEFAULT_MODULE' => 'Resume',
+    'DEFAULT_MODULE' => 'Email',
 
     'TMPL_PARSE_STRING' => array(
         '__Public' => __ROOT__ . '/Modules/' . MODULE_NAME . '/View/Public/',

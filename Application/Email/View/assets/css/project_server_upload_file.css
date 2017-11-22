@@ -1,0 +1,58 @@
+@charset "utf-8";
+.modal-body .progress{
+    padding: 0;
+    height: 28px;
+    margin: 0 0 0 5px;
+    overflow:auto;
+
+}
+.modal-body>div{
+    margin-bottom: 15px;
+}
+.modal-body .percent{
+    position: absolute;
+    left: 85%;
+    height: 100%;
+    line-height: 28px;
+}
+.modal-body .form-control{
+    height: 28px;
+}
+.modal-body .form-group label{
+    height: 28px !important;
+    line-height: 28px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.modal-body .form-group div{
+    margin: 0;
+    padding: 0;
+}
+.modal-body .btn{
+    height: 28px;
+    line-height: 28px;
+    padding: 0;
+    margin: 0 5px;
+}
+.modal-body .shrink{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.modal-body .form .form-group{
+    margin: 15px 0 !important;
+}
+.modal-body .form .form-group select{
+    margin: 0;
+    padding: 0;
+    height: 28px;
+    line-height: 28px;
+}
+.modal-body .form .form-group textarea.form-control{
+    height: auto;
+}

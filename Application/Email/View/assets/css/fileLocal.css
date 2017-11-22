@@ -1,0 +1,115 @@
+@charset "utf-8";
+.modal-body .progress{
+    padding: 0;
+    height: 28px;
+    margin: 0 0 0 5px;
+    overflow:auto;
+
+}
+.modal-body>div{
+    margin-bottom: 15px;
+}
+.modal-body .percent{
+    position: absolute;
+    left: 85%;
+    height: 100%;
+    line-height: 28px;
+}
+.modal-body .form-control{
+    height: 28px;
+}
+.modal-body .form-group label{
+    height: 28px !important;
+    line-height: 28px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.modal-body .form-group div{
+    margin: 0;
+    padding: 0;
+}
+.modal-body .btn{
+    height: 28px;
+    line-height: 28px;
+    padding: 0;
+    margin: 0 5px;
+}
+.modal-body .shrink{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.modal-body .form .form-group{
+    margin: 15px 0 !important;
+}
+.modal-body .form .form-group select{
+    margin: 0;
+    padding: 0;
+    height: 28px;
+    line-height: 28px;
+}
+.modal-body .form .form-group textarea.form-control{
+    height: auto;
+}
+#fileLocal .btn-default{
+    padding:0;
+    margin: 0;
+    height: 28px;
+    line-height: 28px;
+
+}
+.fileupload-buttonbar{
+    margin-bottom: 15px;
+}
+.state{
+    margin: 0 5px;
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+.item{
+    margin-bottom: 15px;
+    position: relative;
+}
+#thelist .progress-striped{
+    position: absolute;
+    top: 0;
+    width: 30%;
+    right: 0%;
+}
+/*.btn_subset{
+    display: none;
+}*/
+#picker{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 15px;
+}
+.webuploader-pick{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+#picker > div{
+    width: 100%;
+}
+
+.btn_subset{
+    display: none;
+}
+#ctlBtn{
+    padding: 7px 12px;
+}

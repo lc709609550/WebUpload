@@ -1,0 +1,309 @@
+@charset "utf-8";
+#memorabilia_container{
+    position: relative;
+    overflow: auto;
+}
+div,form,input,textarea,p,ul,li,dl,dt,dd,h1,table,h2 {
+    padding:0;
+    margin:0;
+}
+li {
+    list-style-type:none;
+}
+ol,ul {
+    list-style:none;
+}
+input {
+    vertical-align:middle;
+    font-size:100%;
+}
+img {
+    vertical-align:top;
+    border:0;
+}
+em,i {
+    font-style:normal;
+}
+.l {
+    float:left;
+}
+.r {
+    float:right;
+}
+.c {
+    clear:both;
+}
+.o {
+    overflow:hidden;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+a {
+    color:#337ab7;
+    text-decoration:none;
+}
+a:hover {
+    color:#337ab7;
+    text-decoration:underline;
+}
+.clearfix {
+    *zoom:1;
+}
+.clearfix:before,.clearfix:after {
+    display:table;
+    content:"";
+}
+.clearfix:after {
+    clear:both;
+}
+.memorabilia_content {
+    position:relative;
+    width:1000px;
+    margin:0 auto;
+}
+
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.top{
+    margin-top: 60px;
+}
+.top img{
+    width: 100%;
+    margin-top: -10px;
+}
+.memorabilia_content {
+    padding: 5px 0;
+    min-height: 500px;
+    background: transparent;
+    width: 100%;
+}
+.memorabilia_content .memorabilia_text {
+    position: relative;
+    background:transparent;
+    margin: 0 auto;
+}
+.memorabilia_content .light {
+    position: absolute;
+    left: 55px;
+    top: -50px;
+    width: 100%;
+    height: 191px;
+    background: url("../img/log/light-top.png") no-repeat top center;
+}
+.memorabilia_content .light i {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: url("../img/log/light.png") no-repeat top center;
+}
+.memorabilia_content .line-left {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 70px;
+}
+.memorabilia_content .line-right {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 460px;
+}
+.memorabilia_content .memorabilia_main {
+    /*background: url("../img/log/line-bg.png") repeat-y 20% 10px;*/
+}
+.memorabilia_text>img{
+    vertical-align: top;
+    border: 0;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+    margin-left: -1px;
+    top: 11px;
+}
+.memorabilia_content .memorabilia_main .memorabilia_title {
+    position: absolute;
+    line-height: 42px;
+    padding-left: 67px;
+    left: 230px;
+    top: 0;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    color:  #333;
+    background-color: #EAEAEA;
+    font-size: 24px;
+
+}
+.memorabilia_content .memorabilia_main .year {
+    position: relative;
+    z-index: 98;
+}
+.memorabilia_content .memorabilia_main .year h2 {
+    height: 40px;
+    width: 22.5%;
+    padding-left: 5%;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: left;
+}
+.memorabilia_content .memorabilia_main .year h2 img{
+    position: absolute;
+    top: -8px;
+    left: 20%;
+    width: 60px;
+    margin-left: -30px;
+ }
+.memorabilia_content .memorabilia_main .year h2 a {
+    color: #333;
+}
+.memorabilia_content .memorabilia_main .year h2 i{
+    display:block;
+    position:relative;
+    height:0;
+    width:0;
+    left:75px;
+    top:-20px;
+    border-width:6px;
+    border-style:solid;
+    border-color:#333 transparent transparent transparent;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+    transition:.5s;
+    -webkit-transform-origin:6px 3px;
+    -moz-transform-origin:6px 3px;
+    -ms-transform-origin:6px 3px;
+    -o-transform-origin:6px 3px;
+    transform-origin:6px 3px
+}
+.memorabilia_content .memorabilia_main .year .list{
+    margin:10px 0;
+    position:relative;
+    overflow:hidden;
+    -webkit-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+    -moz-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+    -ms-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+    -o-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+    transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s
+}
+.memorabilia_content .memorabilia_main .year .list ul {
+    bottom: 0;
+    width: 100%;
+}
+.memorabilia_content .memorabilia_main .year .list ul li {
+    /*background: url("../img/log/u4012.png") no-repeat 18.4% -10px;*/
+    background-clip:content-box;
+    color: #333;
+    min-height: 100px;
+    background-size: 50px;
+}
+.memorabilia_content .memorabilia_main .year .list ul li.highlight {
+    background-image: url("../img/log/u4012.png");
+}
+.cls {
+    zoom: 1;
+    position: relative;
+}
+.cls:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.cls>img{
+    position: absolute;
+    width: 50px;
+    left: 20%;
+    margin-left: -25px;
+    top: -5px;
+}
+.memorabilia_content .memorabilia_main .year .list ul li.highlight .date, .memorabilia_content .memorabilia_main .year .list ul li.highlight .intro {
+    color: #333;
+}
+.memorabilia_content .memorabilia_main .year .list ul li .date,.memorabilia_content .memorabilia_main .year .list ul li .version{
+    float:left;
+    display:block;
+    clear:left;
+    width:20%;
+    padding-right: 2%;
+    line-height:24px;
+    text-align:right
+}
+.memorabilia_content .memorabilia_main .year .list ul li .date{
+    font-size:18px;
+    line-height:42px;
+    color:#333
+}
+.memorabilia_content .memorabilia_main .year .list ul li .intro, .memorabilia_content .memorabilia_main .year .list ul li .more {
+    float: left;
+    display: block;
+    width: 98%;
+    margin-left: 2%;
+    line-height: 24px;
+}
+.more a{
+    float: right;
+    color: #008000;
+}
+.memorabilia_content .memorabilia_main .year .list ul li .intro {
+    font-size: 13px;
+    line-height: 24px;
+    color: #333;
+}
+.memorabilia_content .memorabilia_main .year .list ul li .intro span{
+    display: inline-block;
+    width: 80%;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow:hidden;
+    cursor: pointer;
+}
+.memorabilia_content .memorabilia_main .year .list ul li .intro a{
+    font-size: 13px;
+    float: right;
+    padding-right: 5%;
+}
+.memorabilia_content .memorabilia_text:first-child .memorabilia_main .year.closes h2 i{
+    transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg)
+}
+.memorabilia_content .memorabilia_text:first-child .memorabilia_main .year.closes .list{
+    opacity:0;
+    height:0!important;
+}
+
+.memorabilia_query{
+    margin: 15px 0;
+    width: 320px;
+}
+#calendar{
+    width: 100%;
+    margin-top: 15%;
+}
+.calendar_bg{
+    background-color:#337ab7;
+}
+.jedatebox{
+    width: 100% !important;
+    margin-top: 15%;
+}

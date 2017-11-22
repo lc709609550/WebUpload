@@ -1,0 +1,300 @@
+@charset "utf-8";
+*{
+    font-family: "微软雅黑",Arial;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+ul li {
+    list-style: none;
+}
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#bigData{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background:url("../img/dsjbj.png");
+    background-size: 100% 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.bgFrame{
+    width: 180px;
+    height: 185px;
+    position: absolute;
+    z-index: 3;
+}
+.topLeft{
+    background:url("../img/385b13c1b7e06e91d8a8ec0357637505.png");
+    left: 16px;
+    top: 24px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.topRight{
+    background:url("../img/41e2f356b6dce301317bb2a7a66852f2.png");
+    right: 16px;
+    top: 24px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bottomLeft{
+    background:url("../img/eab3c95560a5d92c1025306bcf62ae88.png");
+    left: 16px;
+    bottom: 24px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bottomRight{
+    background:url("../img/edd61a47dd4231803d255d11a16f7d28.png");
+    right: 16px;
+    bottom: 24px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#bigDataHead{
+    height: 65px;
+    width: 100%;
+    margin-top: 24px;
+    line-height: 65px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+#map{
+    position: absolute;
+    width:  100%;
+    height: 90%;
+    top: 10%;
+    left: 0;
+    z-index: 1;
+}
+
+#bigDataHead h2 {
+    margin: 0;
+    padding: 0 30px;
+    height:50px;
+    width: auto;
+    display: inline-block;
+    line-height: 42px;
+    color: #fff;
+    vertical-align: middle;
+    font-weight: normal;
+    font-size: 28px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background:url("../img/b1d4dfdbfb66f2b4bc03a6c7d5b500ed.png") no-repeat left bottom;
+}
+
+.headBg{
+    display: inline-block;
+    width: 180px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.headL{
+    background:url("../img/729f36f3890a2cc2ec356285469a9a13.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.headR{
+    background:url("../img/a23ee39a3634282e941705925887ea97.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.chartT{
+    width: 30%;
+    height: 95.2%;
+    position: absolute;
+    z-index: 4;
+    padding: 60px 20px 20px 20px;
+}
+.chartL{
+    top: 24px;
+    left: 16px;
+}
+
+.chartR{
+    top: 24px;
+    right: 16px;
+}
+.chartL>div{
+    width: 100%;
+    padding: 0 30px;
+}
+.bigDataType{
+    height: 25%;
+}
+.bigDataCase,.bigEquipmentType{
+    height: 37.5%;
+}
+.chartR>div{
+    height: 50%;
+    width: 100%;
+    padding: 0 30px;
+}
+.bigDataLegend{
+    border: none;
+    margin: 0;
+    text-align: left;
+    padding: 0 5px;
+    width:60%;
+    height: 35px;
+    display:block;
+    line-height: 35px;
+    color: #fff;
+    vertical-align: middle;
+    font-weight: normal;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background:url("../img/6ac43d2d83702455ade20bcd5fab3591.png") no-repeat;
+    background-size: 100% 100%;
+}
+.bigDataContent{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.bigDataTypeC ul{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+.bigDataTypeC ul li{
+    float: left;
+    width: 30%;
+    margin: 0 1.5%;
+    height: 100%;
+    background:url("../img/13c890ebf14a1a23c168fc01e445932a.png") no-repeat;
+    background-size: 100% 100%;
+}
+.bigDataTypeC ul li p{
+    color: #fff;
+    vertical-align: middle;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+    margin-top: 12%;
+}
+.bigDataTypeC ul li .bigDataTypeCName{
+    font-size: 14px;
+    font-weight: 500;
+}
+.bigDataTypeC ul li .bigDataTypeCValue{
+    font-size: 18px;
+    color: #59EBE8;
+}
+.bigDataTypeC ul li .bigDataTypeCValue strong{
+    color:  rgb(251, 243, 32);
+}
+.bigDataProject{
+    display: inline-block;
+    position: relative;
+    z-index: 4;
+    width: 36%;
+    height: 15%;
+}
+.bigDataProject>div{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 20px 0;
+}
+.bigDataProjectS{
+    font-size: 20px;
+    color: #59EBE8;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bigDataProjectS strong{
+    color:  rgb(251, 243, 32);
+}
+.bigDataProject .bigDataLegend{
+    width: 100%;
+    text-align: left;
+}
+
+.corner{
+    background: -webkit-linear-gradient(45deg, #2e2e2e 24%, #5F5F5F 40%,#6f6f6f 43%,#5F5F5F 46%,#2F2F2F 50%,#fff 50%,#fff);
+    background: -moz-linear-gradient(45deg, #2e2e2e 24%, #5F5F5F 40%,#6f6f6f 43%,#5F5F5F 46%,#2F2F2F 50%,#fff 50%,#fff);
+    height: 90px;
+    background: -o-linear-gradient(45deg, #2e2e2e 24%, #5F5F5F 40%,#6f6f6f 43%,#5F5F5F 46%,#2F2F2F 50%,#fff 50%,#fff);
+    height: 90px;
+    background: -ms-linear-gradient(45deg, #2e2e2e 24%, #5F5F5F 40%,#6f6f6f 43%,#5F5F5F 46%,#2F2F2F 50%,#fff 50%,#fff);
+    height: 90px;
+    background: linear-gradient(45deg, #191fa8 24%, #3037a6 40%, #1b25b4 43%, #363fc2 46%,#191FF9 50%,#fff 50%,#fff);
+    height: 90px;
+    width: 90px;
+    height: 90px;
+    border-radius: 0 0 0px 35px / 0 0 0 15px;
+    -webkit-transform: rotate(-0deg);
+    -moz-transform: rotate(-0deg);
+    -o-transform: rotate(-0deg);
+    -ms-transform: rotate(-0deg);
+    transform: rotate(-0deg);
+    position: absolute;
+    right: -4px;
+    top: -4px;
+    box-shadow: 5px 2px 8px black;
+    overflow: hidden;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+    z-index: 13;
+    cursor: pointer;
+}
+.corner:after{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: "";
+    top: -15px;
+    left: -82px;
+    border-radius: 90px 90px 0px 0 / 40px 40px 0 0;
+    z-index: 1;
+    background: #2F2F2F;
+    -webkit-transform: rotate(77deg);
+    -moz-transform: rotate(77deg);
+    -o-transform: rotate(77deg);
+    -ms-transform: rotate(77deg);
+    transform: rotate(77deg);
+    box-shadow: 0px 0px 8px black inset;
+}
+.corner>i{
+    font-size: 11px;
+    display: block;
+    transform: rotate(48deg);
+    margin-left: 12px;
+    margin-top: 14px;
+}

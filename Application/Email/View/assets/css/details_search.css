@@ -1,0 +1,205 @@
+@charset "utf-8";
+#details_search_s{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+}
+#search{
+    height: 45px;
+    padding: 0;
+    line-height: 45px;
+    font-size: 14px;
+}
+.search_box{
+    margin: 0;
+    padding: 0;
+    margin-top: 15%;
+}
+#details_search_s .btn-primary{
+    width: 120px;
+    height: 45px;
+    font-size: 18px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+}
+.dropdown-menu{
+    width: 64.8%;
+}
+
+.details_search_contents{
+    margin: 2% 2%;
+}
+
+.search_left{
+    margin-left: 1%;
+}
+.details_search_nav li{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.details_search_nav li a{
+    padding:5px;
+    margin: 10px;
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+}
+.details_search_nav>li>a:hover, .details_search_nav>li>a:focus{
+    background-color: transparent;
+}
+.details_search_body h4{
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+.details_search_body h4 .ic-doc{
+    background-image: url(../img/pkg.png);
+    margin-right: 15px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    padding: 0;
+    vertical-align: -2px;
+    font-size: 0;
+    line-height: 9999em;
+    overflow: hidden;
+    position: relative;
+    background-position: -193px -991px;
+}
+.details_search_download{
+    line-height: 32px;
+    position: absolute;
+    right: 0;
+    top: -7px;
+}
+.details_search_download a{
+    float: right;
+}
+.details_search_ul,.details_search_ul ol,.details_search_case ,.details_search_case ol{
+    padding: 0;
+    margin: 0;
+}
+.c_color{
+    color: #c00;
+    font-style: normal;
+}
+.details_search_body{
+    position: relative;
+}
+.details_search_body .btn-success{
+    background: rgb(47, 173, 133);
+}
+
+
+/* 定义关键帧 */
+@-webkit-keyframes shade{
+    from{opacity:1;}
+    15%{opacity:0.4;}
+    to{opacity:1;}
+}
+@-moz-keyframes shade{
+    from{opacity:1;}
+    15%{opacity:0.4;}
+    to{opacity:1;}
+}
+@-ms-keyframes shade{
+    from{opacity:1;}
+    15%{opacity:0.4;}
+    to{opacity:1;}
+}
+@-o-keyframes shade{
+    from{opacity:1;}
+    15%{opacity:0.4;}
+    to{opacity:1;}
+}
+@keyframes shade{
+    from{opacity:1;}
+    15%{opacity:0.4;}
+    to{opacity:1;}
+}
+/* wrap */
+#details_search_images,#details_search_video{
+    width:auto;
+    height:auto;
+    margin:0 auto;
+    position:relative;
+}
+#details_search_images .box,#details_search_video .box{
+    display: inline-block;
+    /*width:240px;*/
+    height:auto;
+    /*padding:10px;*/
+    border:none;
+    float:left;
+    position: relative;
+    margin: 5px;
+}
+#details_search_images .box .info,#details_search_video .box .info{
+    /*width: 240px;*/
+    height:auto;
+    border-radius:8px;
+    box-shadow:0 0 11px #666;
+    /*background:#fff;*/
+    position: relative;
+}
+#details_search_images .box .info .pic,#details_search_video .box .info .pic{
+    display: block;
+    /*width: 240px;*/
+    height:auto;
+    margin:0 auto;
+    /*padding-top:10px;*/
+}
+#details_search_images .box .info .pic:hover,#details_search_video .box .info .pic:hover{
+    -webkit-animation:shade 3s ease-in-out 1;
+    -moz-animation:shade 3s ease-in-out 1;
+    -ms-animation:shade 3s ease-in-out 1;
+    -o-animation:shade 3s ease-in-out 1;
+    animation:shade 3s ease-in-out 1;
+}
+#details_search_images .box .info .pic img,#details_search_video .box .info .pic img{
+    width: auto;
+    height: 180px;
+    /*border-radius:3px;*/
+}
+#details_search_images .title,#details_search_video .title{
+/*    width:240px;
+    height:40px;*/
+    margin:0 auto;
+    line-height: 70px;
+    text-align:center;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: url(../img/shadow.png);
+    display: none;
+    font-size: 12px;
+    font-weight: 100;
+    color: #fff;
+}
+.pagination{
+    margin-bottom: 0px;
+    position: relative;
+}
+.pagination > li{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.pagesLi{
+    max-width: 341px;
+    overflow: hidden;
+}
+.pages  > li>a{
+    padding: 6px 0;
+    width: 35px;
+    text-align: center;
+}

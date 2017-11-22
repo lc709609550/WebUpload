@@ -1,0 +1,18 @@
+@charset "utf-8";
+.user_content{
+    padding: 0 20px;
+}
+.userDetails img{
+    width: 45px;
+    height: 45px;
+    vertical-align: bottom;
+}
+.userDetails strong{
+    color: #333;
+    font-size: 16px;
+}
+.userDetails span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}

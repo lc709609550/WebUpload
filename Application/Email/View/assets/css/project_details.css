@@ -1,0 +1,169 @@
+@charset "utf-8";
+.project_details_wrapper{
+    margin-top: -10px;
+}
+.project_details_header{
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #797979;
+    border-bottom: 1px solid #797979;
+    height: auto !important;
+}
+.project_details_header>div{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.project_schedule{
+    width: 100%;
+}
+
+.project_schedule p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.project_schedule p a{
+    color: #333;
+}
+.project_schedule .project_schedule_name{
+    text-align: left;
+    line-height: 28px;
+}
+.project_schedule_text{
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    color: #369933;
+
+}
+.project_schedule_percentage{
+    color: #FA3600;
+}
+.project_schedule_details ul{
+    width: 100%;
+    height: 100%;
+}
+.project_schedule_details ul li{
+    float: left;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+.project_schedule_details ul li p{
+    padding: 0;
+    margin: 5px 0 !important;
+}
+.project_schedule_details ul li div{
+    position: absolute;
+    left:-32px;
+    top: 36px;
+}
+.project_schedule_details ul li em{
+    display: inline-block;
+    font-size: 18px;
+    height: 32px;
+    line-height: 32px;
+    color: #000;
+    font-weight: 800;
+}
+.details_img{
+    cursor: pointer;
+}
+.project_schedule_details ul li .details_img i{
+    font-size: 42px;
+}
+.project_schedule_details ul li div i{
+    font-size: 28px;
+}
+.project_details_big_event{
+    overflow: auto;
+    margin-right: 20px;
+}
+.project_details_big_event ul{
+    margin-top: 10px;
+    padding-left: 6%;
+}
+.project_details_big_event ul ol{
+    list-style: none;
+    height: 60px;
+    font-size: 14px;
+    position: relative;
+    padding-left: 0%;
+}
+.project_details_big_event ul ol i {
+    margin-right: 30px;
+}
+.project_details_big_event ul ol strong{
+    display: inline-block;
+    width: 1px;
+    height: 83%;
+    background-color: #000;
+    position: absolute;
+    left: 0.345%;
+    top: 26%;
+}
+.form-panel{
+    background-color: transparent;
+    box-shadow:none;
+}
+.form-horizontal.style-form .form-group{
+    border-bottom: none;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.form-horizontal .form-group{
+    margin-right:10px;
+    margin-left: 10px;
+}
+.project_details_task_phase{
+    padding: 0 15px;
+}
+.project_details_task_phase_header{
+    margin: 4px 6px !important;
+}
+#project_members>div, #project_other_members>div, #projectcti>div{
+    margin:0 0 10px;
+    padding: 0px 5px;
+}
+.upper_level{
+    margin:0 0 10px 20px;
+    display: inline-block;
+}
+/*.btn_subset{
+    display: none;
+}*/
+#picker_s{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 15px;
+}
+.webuploader-pick{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+#picker_s > div{
+    width: 100%;
+}
+
+.btn_subset{
+    display: none;
+}
+#project_details .headers h2 .btn{
+    float: right;
+}
+.control-label{
+    padding: 0 !important;
+    line-height: 35px;
+}
+#project_details_nav>li{
+    background: #EEEEEE;
+}
